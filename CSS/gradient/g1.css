@@ -1,0 +1,46 @@
+.div1{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+
+    background-image: linear-gradient(lightgreen , blueviolet);
+
+    background-image: linear-gradient(to right ,lightgreen , blueviolet);
+    
+    background-image: linear-gradient(to left ,lightgreen , blueviolet);
+
+    background-image: linear-gradient(to top , lightgreen , blueviolet);
+
+    background-image: linear-gradient(to bottom , lightgreen , blueviolet);
+
+    background-image: linear-gradient(to bottom right , lightgreen , blueviolet , lightblue);
+
+    background-image: linear-gradient(45deg , lightgreen , blueviolet , lightblue);
+
+    background-image: linear-gradient(to bottom , rgba(255,0,0,1.2) , rgba(0,255,0,1));
+ 
+    
+}
+
+
+.mydiv{
+
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+
+    background-image: radial-gradient(circle , lightgreen , blueviolet);
+
+    background-image: radial-gradient(yellow 5% , red 5% ,  orange 30%);
+
+}
+
+.bharatFlag{
+    width: 80px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 30px;
+
+    background-image: linear-gradient(to bottom , orange , white ,  green );
+}

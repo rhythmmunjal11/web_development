@@ -1,0 +1,23 @@
+div{
+    background-color: aqua;
+
+    
+    /* transform:translate(10px , 20px) ;
+    transform:translate(10px ) ; */
+
+    /* transform: rotate(-45deg); */
+
+
+    margin: 100px;
+
+    /* transform:scale(2,1); */
+
+    transform: skew(80deg);
+
+
+
+
+
+
+
+}

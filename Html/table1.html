@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        table,td,tr{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            caption-side: bottom;
+
+        }
+
+        /* caption{
+            caption-side: bottom;
+        } */
+
+
+
+    </style>
+
+
+</head>
+<body>
+    
+    <table>
+        <caption>This is my table </caption>
+        <tr>
+            <td colspan='2'>1</td>
+            <!-- <td>2</td>  as isko hatana padega bcq we are doing colspan 2 in 1 -->
+            <td>3</td>
+        </tr>
+
+        <tr>
+            <td>abcd</td>
+            <td rowspan="2">efgh</td>
+            <td>ijkl</td>
+        </tr>
+
+        <tr>
+            <td>mnop</td>
+            <!-- <td>qrst</td> -->
+            <td>uvwx</td>
+        </tr>
+
+
+        <tr>
+            <td>mnop</td>
+            <td colspan="2" rowspan="2">qrst</td>
+            <!-- <td>uvwx</td> -->
+        </tr>
+
+
+        <tr>
+            <td>mnop</td>
+            <!-- <td>qrst</td> -->
+            <!-- <td>uvwx</td> -->
+        </tr>
+
+
+
+
+    </table>
+
+
+</body>
+</html>

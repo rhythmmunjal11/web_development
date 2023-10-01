@@ -1,0 +1,12 @@
+h1{
+    text-shadow: 3px 3px 3px #90ee90;
+    text-shadow: 3px 3px 3px lightgreen , 60px 10px 6px red;
+}
+
+div{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    box-shadow: 3px 3px 3px lightcoral;
+    box-shadow: 3px 3px 3px lightcoral , 6px 6px lightseagreen;
+}

@@ -1,0 +1,44 @@
+.container{
+    margin-top: 100px;
+    background-color: palevioletred;
+    position: relative;
+    text-align: center;
+}
+
+.text{
+    position: absolute;
+    top: 20px;
+    right: 20px; 
+}
+
+.text1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.text2{
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+    color: chartreuse;
+
+}
+
+.text3{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    color:chartreuse;
+}
+
+.text4{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color:chartreuse;
+    transform: translate(-50%, -50%);
+    
+    
+}

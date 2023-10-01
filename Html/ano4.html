@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        table,td,tr,th{
+            border: 1px solid black;
+            /* border-collapse: collapse; */
+            text-align: center;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    
+    <table>
+
+
+        <tr>
+            <th>Column1</th>
+            <th>Column2</th>
+
+        </tr>
+
+        <tr>
+            <td colspan="2">colspan column</td>
+        </tr>
+
+
+
+        <tr>
+            <td rowspan="2">Rowspan cell</td>
+            <td>Cell2</td>
+        </tr>
+
+
+
+        
+        <tr>
+
+            <td>
+
+            <table>
+
+                <tr>
+                    <td>Inner column heading 1</td>
+                    <td>Inner column heading 2</td>
+                </tr>
+
+                <tr>
+                    <td>Inner Data Cell 1</td>
+
+
+
+                    <td>
+
+                        <table>
+
+                            <tr>
+                                <td>inner most heading 1</td>
+                                <td>inner most heading 2</td>
+                            </tr>
+
+                            <tr>
+                                <td>inner most data cell 1</td>
+                                <td>inner most data cell 2</td>
+                            </tr>
+
+
+
+                        </table>
+
+
+
+                    </td>
+
+
+                </tr>
+
+
+            </table>
+
+            </td>
+
+
+        </tr>
+
+
+
+    </table>
+
+
+</body>
+</html>
