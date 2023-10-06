@@ -1,0 +1,48 @@
+.container{
+
+    border: 1px solid lightsalmon;
+    height: 300px;
+
+    display: flex;   
+    /* display:flex ; is by defalut row   */
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* flex-flow: column wrap; */
+
+    /* justify-content: center;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+
+    /* align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline; */
+
+
+
+
+    /* align-content: center;     align content is used to add property between two rows  */
+
+    
+
+}
+
+.box{
+
+    border: 1px solid limegreen;
+    /* width: 50px; */
+    background-color: lightgreen;
+    /* squeeze karne par inki width kam ho rahi thi that's why we add (flex-wrap:wrap ) */
+
+
+
+}
