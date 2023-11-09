@@ -1,0 +1,46 @@
+.container{
+
+    background-color: bisque;
+    height: 95vh;
+    border: 3px solid brown;
+
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px ; */
+
+    /* grid-template-columns: 1fr 1fr 1fr ; */
+    /* isse columns ki width thino same fraction m divide ho jayengi  */
+    /* grid-template-columns: repeat(3,1fr); */
+    grid-template-columns: repeat(3,1fr) ;
+
+    /* grid-template-rows: 90px 90px 90px; */
+    grid-template-rows: repeat(4,1fr);
+
+    gap: 11px;
+
+
+
+}
+
+.box{
+
+    background-color:cornflowerblue;
+    /* width: 150px; */
+    /* height: 80px; */
+    border: 1px solid black;
+
+}
+
+
+#box1{
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+
+#box4{
+
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+}

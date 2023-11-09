@@ -13,11 +13,16 @@ div{
     top: 130px;
 }
 
+/* #box2{
+    position: relative;
+    top: 10px;
+} */
+
 .wrapper{
-    height: 1000px;
+    height: 900px;
     background-color: bisque;
     width: 90vw;
-    /* position: relative;  */
+    position: relative; 
     /* top: 80px;
     left: 100px; */
 
@@ -25,8 +30,8 @@ div{
 
 
 #box4{
-    /* position: sticky; */
-    top: 1px;
+    position: sticky;
+    /* top: 20px; */
 }
 
 /* #box1{
