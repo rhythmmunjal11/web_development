@@ -7,10 +7,13 @@ div{
 }
 
 #box3{
-    left: 30px;
-    /* position: relative; */
-    /* position: absolute; */
-    top: 130px;
+    left: 0px;   /* if this is left = 0px and if there is position absolute then this will be positioned with respect to wrapper class as it is postion relative and agar hamne wrapper class m position relative nahi di hoti then this will positioned with respect to body  */ 
+
+    /* left: 30px;  */
+    /* position: relative;   */
+    position: absolute;
+    top:90px;
+    /* top: 930px; */
 }
 
 /* #box2{
@@ -32,8 +35,12 @@ div{
 #box4{
     position: sticky;
     /* top: 20px; */
+    /* top: 5000px; with respect to parent and parent ke andar hi rahega chaiye top se wrapper(parent) class ka actual size(height) 1000px ho  */ 
+    /* important  */
 }
 
-/* #box1{
-    position: fixed;
-} */
+#box1{
+    /* position: fixed;   */
+    /* top: 50px; */
+    /* important agrr box1 ki position fixed kar di to box1 ke piche box2 aa gayega  */
+} 
