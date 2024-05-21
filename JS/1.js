@@ -87,15 +87,15 @@
 
 
 
-// ****** now we will do this with non boolean values 
+// ****** now we will do this with non boolean values
 
 // console.log(false || 'munjal'); // munjal
 // console.log(5||2); // 5
 
 // console.log(false && 3);
 // console.log(4 && false);
-// console.log(4 && true);
-// console.log(4 && 2);
+// console.log(4 && true);  // true
+// console.log(4 && 2);     //   2 
 // console.log(5 && 3 && 1);
 // console.log(5 && 3 && true); // true (returns the last checked value as it is and operator so will check this till last )
 // console.log(5 && 3 && false); // false
@@ -109,20 +109,21 @@
 
 
 // switch case
-let num = 2;
 
-switch (num) {
+// let num = 2;
 
-    case 1: console.log('A');
-        break;
-    case 2: console.log('B');
-        // break;
-    case 3: console.log('C');
-        break;
+// switch (num) {
 
-    default: console.log('D');
+//     case 1: console.log('A');
+//         break;
+//     case 2: console.log('B');
+//         // break;
+//     case 3: console.log('C');
+//         break;
+
+//     default: console.log('D');
         
-} // prints B C bcz case 2 ke baad break nahi hai 
+// } // prints B C bcz case 2 ke baad break nahi hai 
 
 
 
