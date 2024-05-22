@@ -102,6 +102,17 @@ function Rectangle(len , bre) {
     this.draw = function(){
         console.log('drawing');
     }
+
+
+    /// wrong ************************* 
+    // this.draw()={
+    //     console.log('drawing');
+    // }
+
+    // wrong **************************
+    // this.draw()=function()={
+    //     console.log('drawing');
+    // }
 }
 
 // object creation using constructor fucntion
@@ -162,7 +173,7 @@ let rectangle = {
 //     console.log(key , rectangle[key]);
 // }
 
-// rectangle[key] will print value of the key . key is lenght and breadth
+// rectangle[key] will print (value) of the key . key is lenght and breadth
 
 
 // for-of loop **************** imp
@@ -215,6 +226,7 @@ let rectangle = {
 
 
 // object clone #2
+
 // let src = {
 //     len:4,
 //     bre:6
