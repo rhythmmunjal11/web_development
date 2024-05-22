@@ -53,7 +53,7 @@ console.log('object creation');
 //     };
 // }
 
-//let a = createRectangle(); // in this createRectangle() function will return rectangle object and now this a variable will refer to rectangle object
+//let a = createRectangle(); // in this createRectangle() function will return rectangle object and now this [a] variable will refer to rectangle object
 // console.log(a.breadth);
 // console.log(a.draw());
 // console.log(a.length);
@@ -63,17 +63,25 @@ console.log('object creation');
 
 // function createRectangle(len , bre) {
 
-//     return rectangle = {
-//         length:len,
-//         breadth:bre,
+//     let rectangle = { // we have to do let rectangle otherwise if we write return rectangle then it will give error (the error will be cannot return rectangle before intialitation)
+
+//         len,
+//         bre,
+
+//         // or length = len and breadth = bre;
 
 //         draw(){
 //             console.log('drawwww');
 //         }
 //     };
+
+//     return rectangle;
 // }
 
 // let rec22 = createRectangle(1,3);
+// console.log(rec22.len);
+
+
 // let rec33 = createRectangle(10,30);
 
 // let rec11 = createRectangle(23,33);
@@ -178,13 +186,57 @@ let rectangle = {
 
 
 // how can we check if a particular property is present in object or not
-if('color' in rectangle){
-    console.log('present');
+// if('color' in rectangle){
+//     console.log('present');
+// }
+// else{
+//     console.log('absent');
+// }
+
+
+// object clone #1 **************** 
+
+// let src = {
+//     len:12,
+//     bre:14
+// }
+
+// let dest = {};
+
+// for(let key in src){
+//     dest[key] = src[key];
+// }
+
+// console.log(dest);
+
+// src.len++;
+
+// console.log(dest); // no effect on dest so it is clone 
+
+
+// object clone #2
+// let src = {
+//     len:4,
+//     bre:6
+// }
+
+// let src2 = {value:80};
+
+// let dest = Object.assign({} , src , src2); // with asssign we can copy the two objets into one
+// console.log(dest);
+
+// src.len++;
+// console.log(dest);
+
+
+// object clone #3
+let src = {
+    a:1,
+    b:2
 }
-else{
-    console.log('absent');
-}
 
+let dest = {...src};
+console.log(dest);
 
-
-
+src.a++;
+console.log(dest);
