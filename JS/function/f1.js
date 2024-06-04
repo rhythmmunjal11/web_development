@@ -61,14 +61,14 @@
 
 
 // imprtant
-// function sum1(){ // chaiye sum1(a,b) likho ya mat likho
-//     let total = 0;
-//     for (let value of arguments) //(special object -> arguments)
-//         total+= value;
-//     return total;
-// }
+function sum1(){ // chaiyeee sum1(a,b) likho ya mat likho
+    let total = 0;
+    for (let value of arguments) //(special object -> arguments)
+        total+= value;
+    return total;
+}
 
-// console.log(sum1(2,1,5,4,3)); // prints 3 if there was simple function written without help of arguments
+console.log(sum1(2,1,5,4,3)); // prints 3 if there was simple function written without help of arguments but in this it will print 15
 // // but if i want to print all of these parametes then i will take help of argumetns 
 // console.log(sum1()); // 0 
 

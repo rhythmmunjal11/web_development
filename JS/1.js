@@ -25,10 +25,11 @@
 //var b = 10; // it is possible using var 
 //console.log(b);
 
-
+// ************************************** 
+// means var ke ander hum koi bhi variavle ko define karege tooo vo variable jis bhi [function/file] ke ander define hai utna hi uska scope raheta hai 
 
 // if(true){
-//     let r =11;
+//     let r = 11;
 //     console.log(r);
 // }
 
